@@ -1,0 +1,21 @@
+{
+    "name": "miguel-teixeira/laravel-requester",
+    "description": "Performs multiple requests in one call.",
+    "keywords": ["batch", "requests"],
+    "homepage": "https://github.com/miguel-teixeira",
+    "authors": [
+        {
+            "name": "Miguel Teixeira",
+            "email": "marauder.fx@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.5"
+    },
+    "autoload": {
+       "psr-4": {
+            "LaravelRequester\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
